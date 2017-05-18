@@ -1,9 +1,9 @@
 # Express Server
 
-The point of this simple express server is to allow front-end developers the ability to quickly serve test data via HTTP to the front-end. This express server can be integrated any of the databases like mySQL,mongodb,postgreSQL etc.
+The point of this simple express server is to allow front-end developers the ability to quickly serve test data via HTTP to the front-end. This express server can be integrated any of the with databases like mySQL,mongodb,postgreSQL etc.
 
 
-# API endpoint
+# API endpoints
 
 ## List of games
 
@@ -14,11 +14,11 @@ GET
 
 /api/games
 POST {
-  "id":<id>,
+  "id":id,
   "game":<game_name>
 }
 
-## individual game
+## Particular game
 
 GET
 /api/games/{id}
